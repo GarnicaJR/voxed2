@@ -1,5 +1,6 @@
 # voxed2
 
+
 ## Prerequisites
 1. Mysql/MariaDB
 2. NET CORE 3.1 and CLI
@@ -22,3 +23,12 @@ This step will generate the database tables based in the entities
 1. cd /Server
 3. dotnet build
 3. dotnet run
+
+# Run with Docker
+
+## Prerequisites
+1. Docker
+2. docker-compose
+
+## Run project
+1. run `docker-compose up` on root path of project
